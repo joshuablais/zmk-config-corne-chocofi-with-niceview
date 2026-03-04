@@ -108,7 +108,7 @@
 &none  &kp Q              &kp W             &kp F                    &kp P                  &kp B        &kp J      &kp L              &kp U             &kp Y              &kp APOS             &none
 &none  &weak LEFT_META A  &weak LEFT_ALT R  &shifthr LEFT_CONTROL S  &shifthr LEFT_SHIFT T  &kp G        &kp M      &shifthr RSHIFT N  &shifthr RCTRL E  &weak RIGHT_ALT I  &kp O                &none
 &none  &kp Z              &kp X             &kp C                    &kp D                  &kp V        &kp K      &kp H              &kp COMMA         &kp DOT            &hm SEMICOLON SLASH  &none
-                                            &none                    &lt 1 BACKSPACE        &lt 2 TAB    &lt 2 RET  &lt 1 SPACE        &save
+                                            &none                    &lt 1 BACKSPACE        &lt 2 TAB    &lt 2 RET  &lt 1 SPACE        &none
             >;
 
             label = "home";
