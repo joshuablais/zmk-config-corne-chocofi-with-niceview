@@ -125,7 +125,7 @@
 &none  &kp EXCL            &kp AT               &kp LEFT_BRACE              &kp RIGHT_BRACE                   &kp PIPE     &kp PLUS   &kp NUMBER_7  &kp N8        &kp N9                    &kp ASTERISK   &none
 &none  &hm LEFT_META HASH  &hm LEFT_ALT DOLLAR  &hm LCTRL LEFT_PARENTHESIS  &hm LEFT_SHIFT RIGHT_PARENTHESIS  &kp GRAVE    &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6              &kp COLON      &none
 &none  &kp PERCENT         &kp CARET            &kp LEFT_BRACKET            &kp RIGHT_BRACKET                 &kp TILDE    &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &shifthr PERIOD NUMBER_3  &kp BACKSLASH  &none
-                                                &none                       &kp LC(BACKSPACE)                 &kp DEL      &kp RET    &kp SPACE     &kp N0
+                                                &none                       &kp LC(BACKSPACE)                 &kp DEL      &kp SPACE  &kp NUMBER_0  &none
             >;
 
             label = "num";
