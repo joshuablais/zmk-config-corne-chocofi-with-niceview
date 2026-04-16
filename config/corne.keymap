@@ -106,7 +106,7 @@
 
             bindings = <
 &none  &kp Q              &kp W             &kp F                    &kp P                  &kp B        &kp J      &kp L              &kp U             &kp Y              &kp APOS             &none
-&none  &weak LEFT_META A  &weak LEFT_ALT R  &shifthr LEFT_CONTROL S  &shifthr LEFT_SHIFT T  &kp G        &kp M      &shifthr RSHIFT N  &shifthr RCTRL E  &weak RIGHT_ALT I  &kp O                &none
+&none  &weak LEFT_META A  &weak LEFT_ALT R  &shifthr LEFT_CONTROL S  &shifthr LEFT_SHIFT T  &kp G        &kp M      &shifthr RSHIFT N  &shifthr RCTRL E  &weak RIGHT_ALT I  &weak RIGHT_META O   &none
 &none  &kp Z              &kp X             &kp C                    &kp D                  &kp V        &kp K      &kp H              &kp COMMA         &kp DOT            &hm SEMICOLON SLASH  &none
                                             &none                    &lt 1 BACKSPACE        &lt 2 TAB    &lt 2 RET  &lt 1 SPACE        &none
             >;
@@ -133,10 +133,10 @@
 
         nav {
             bindings = <
-&trans  &kp F1            &kp F2           &kp F3        &kp F4             &email             &kp LS(K_PREVIOUS)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LS(K_NEXT)  &kp K_PLAY_PAUSE  &trans
-&trans  &hm LEFT_META F5  &hm LEFT_ALT F6  &hm LCTRL F7  &hm LEFT_SHIFT F8  &hm LC(V) LC(C)    &kp LEFT_ARROW      &kp DOWN           &kp UP_ARROW     &kp RIGHT       &none             &trans
-&trans  &kp F9            &kp F10          &kp F11       &kp F12            &kp PSCRN          &kp LA(H)           &kp LA(TAB)        &none            &kp LA(L)       &none             &trans
-                                           &bt BT_CLR    &bt BT_NXT         &trans             &trans              &trans             &trans
+&trans  &kp F1            &kp F2           &kp F3        &kp F4             &email       &none           &none     &none         &none      &none  &trans
+&trans  &hm LEFT_META F5  &hm LEFT_ALT F6  &hm LCTRL F7  &hm LEFT_SHIFT F8  &none        &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none  &trans
+&trans  &kp F9            &kp F10          &kp F11       &kp F12            &kp PSCRN    &none           &none     &none         &none      &none  &trans
+                                           &bt BT_CLR    &bt BT_NXT         &trans       &trans          &trans    &trans
             >;
 
             label = "nav";
